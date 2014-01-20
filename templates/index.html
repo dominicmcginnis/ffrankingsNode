@@ -2,20 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Fantasy Football</title>
+	<title>Fantasy Football</title>
+    <link href="css/styles.css" rel="stylesheet">
+	<script type="text/javascript" src="js/lib/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="js/myApp.js"></script>
 </head>
 
 <body>
 
-<div class="header"></div><!-- /header -->
+	<div class="header">
+		<div class="logo">Fantasy Football</div>
+		<div class="league">AC Honey Badgers</div>	
+	</div><!-- /header -->
+	
+	<div class="nav">
+		<div class="menu">
+			<ol>
+				<li>My Team</li>
+				<li>Standings</li>
+				<li>Matchups</li>
+			</ol>
+		</div>
+	</div><!-- /nav -->
 
-<div class="container">
+	<div class="container"></div><!-- /container -->
 
-		<div class="footer"></div><!-- /footer -->
+	<div class="footer"></div><!-- /footer -->
 
-</div><!-- /container -->
-
-
+	<script type="text/javascript">
+		window.app = new MyApp();
+	</script>
 </body>
 </html>
 
