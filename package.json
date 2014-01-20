@@ -1,0 +1,14 @@
+{
+	"name" : "Fantasy-Football-Rankings",
+	"version" : "0.0.1",
+	"private" : true,
+	"dependencies" : {
+		"express" : "~3.0.0",
+		"mongoose" : ">= 2.6.5",
+		"ejs" : ">= 0.8.5"
+	},
+  "engines": {
+    "node": "0.8.x",
+    "npm":"1.2.x"
+  }
+}
